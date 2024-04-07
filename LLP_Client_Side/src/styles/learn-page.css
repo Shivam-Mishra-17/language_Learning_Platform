@@ -1,0 +1,93 @@
+ .learning-path {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px; */
+  background-color: rgba(81, 37, 210, 1);
+  color: white;
+  /* position: sticky; */
+  top: 0;
+  z-index: 1000; /* Ensure header is above other content */
+
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 50px;
+ 
+}
+
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.chapter-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.step-icon {
+  background-color: #6a1b9a;
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.completed .step-icon {
+  background-color: #4527a0;
+}
+
+.step-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.step-description {
+  font-size: 14px;
+  
+}

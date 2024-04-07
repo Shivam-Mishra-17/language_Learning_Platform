@@ -1,0 +1,34 @@
+.lesson-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .complete-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .stars, .scores {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .recap-btn, .continue-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-btn {
+    background-color: #28a745;
+    margin-left: 2px;
+  }

@@ -1,0 +1,47 @@
+.app {
+    font-family: Arial, sans-serif;
+  }
+  
+  .course-section {
+    margin-top: 20px;
+  }
+  
+  .course-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .course-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    background-color: #6a5acd;
+    border-radius: 5px;
+    height: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #483d8b;
+  }
+  

@@ -1,0 +1,60 @@
+/* StudyGoal.css */
+
+.study-goal-container {
+    max-width: 500px;
+    margin:auto;
+    /* background-color: #f9f9f9; */
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #6a1b9a;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .header-text h1 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .header-text p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* .goal-options li {
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  } */
+
+  .goal-options h6 {
+    transition: background-color 0.3s; /* Smooth transition */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .goal-options h6:hover {
+    background-color: #eeeafb; /* Change background color on hover */
+  }
+  
+  .commit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
